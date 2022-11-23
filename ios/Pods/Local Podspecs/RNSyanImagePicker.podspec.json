@@ -1,0 +1,27 @@
+{
+  "name": "RNSyanImagePicker",
+  "version": "0.5.3",
+  "summary": "RNSyanImagePicker",
+  "homepage": "https://github.com/syanbo/react-native-syan-image-picker",
+  "license": "MIT",
+  "authors": {
+    "author": "hanhun@163.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/syanbo/react-native-syan-image-picker.git"
+  },
+  "source_files": "**/*.{h,m}",
+  "requires_arc": true,
+  "resources": "TZImagePickerController/TZImagePickerController.bundle",
+  "dependencies": {
+    "React": [
+
+    ],
+    "TZImagePickerController": [
+
+    ]
+  }
+}
