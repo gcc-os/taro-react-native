@@ -22,8 +22,11 @@ buildscript {
         }
     }
     repositories {
-        google()
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         mavenCentral()
+        google()
     }
     dependencies {
         classpath("com.android.tools.build:gradle:7.0.4")
@@ -51,6 +54,10 @@ allprojects {
                 excludeGroup "com.facebook.react"
             }
         }
+        google()
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         google()
         maven { url 'https://www.jitpack.io' }
     }
