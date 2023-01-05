@@ -34,7 +34,7 @@
 20        android:allowBackup="false"
 20-->/Users/gcc/Desktop/115/taro/taro-react-native/android/app/src/main/AndroidManifest.xml:11:7-34
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.7.0] /Users/gcc/.gradle/caches/transforms-3/8e1cfd4e749775f195798be2005dc765/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.6.0] /Users/gcc/.gradle/caches/transforms-3/5c61d7afbc1bcd99cb491da6ba2ee6c1/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:icon="@mipmap/ic_launcher"
 23-->/Users/gcc/Desktop/115/taro/taro-react-native/android/app/src/main/AndroidManifest.xml:9:7-41
@@ -198,40 +198,18 @@
 105-->[com.google.android.gms:play-services-basement:17.0.0] /Users/gcc/.gradle/caches/transforms-3/6d07939cea62d942059014120005b689/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 106            android:value="@integer/google_play_services_version" />
 106-->[com.google.android.gms:play-services-basement:17.0.0] /Users/gcc/.gradle/caches/transforms-3/6d07939cea62d942059014120005b689/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-107
-108        <provider
-108-->[androidx.emoji2:emoji2:1.0.0] /Users/gcc/.gradle/caches/transforms-3/64dec13405ffa3a92848b2edd24dba73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
-109            android:name="androidx.startup.InitializationProvider"
-109-->[androidx.emoji2:emoji2:1.0.0] /Users/gcc/.gradle/caches/transforms-3/64dec13405ffa3a92848b2edd24dba73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
-110            android:authorities="com.taroapprn.androidx-startup"
-110-->[androidx.emoji2:emoji2:1.0.0] /Users/gcc/.gradle/caches/transforms-3/64dec13405ffa3a92848b2edd24dba73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
-111            android:exported="false" >
-111-->[androidx.emoji2:emoji2:1.0.0] /Users/gcc/.gradle/caches/transforms-3/64dec13405ffa3a92848b2edd24dba73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
-112            <meta-data
-112-->[androidx.emoji2:emoji2:1.0.0] /Users/gcc/.gradle/caches/transforms-3/64dec13405ffa3a92848b2edd24dba73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-113-->[androidx.emoji2:emoji2:1.0.0] /Users/gcc/.gradle/caches/transforms-3/64dec13405ffa3a92848b2edd24dba73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-114                android:value="androidx.startup" />
-114-->[androidx.emoji2:emoji2:1.0.0] /Users/gcc/.gradle/caches/transforms-3/64dec13405ffa3a92848b2edd24dba73/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-115            <meta-data
-115-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/gcc/.gradle/caches/transforms-3/a9ee3d330642623baf40787c0841af5c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
-116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-116-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/gcc/.gradle/caches/transforms-3/a9ee3d330642623baf40787c0841af5c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
-117                android:value="androidx.startup" />
-117-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/gcc/.gradle/caches/transforms-3/a9ee3d330642623baf40787c0841af5c/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
-118        </provider>
-119        <!--
-120        Service for holding metadata. Cannot be instantiated.
-121        Metadata will be merged from other manifests.
-122        -->
-123        <service
-123-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/gcc/.gradle/caches/transforms-3/98682e25510c420e5c6eb6e3383c3317/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:31:9-35:45
-124            android:name="androidx.camera.core.impl.MetadataHolderService"
-124-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/gcc/.gradle/caches/transforms-3/98682e25510c420e5c6eb6e3383c3317/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:32:13-75
-125            android:enabled="false"
-125-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/gcc/.gradle/caches/transforms-3/98682e25510c420e5c6eb6e3383c3317/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:33:13-36
-126            android:exported="false" />
-126-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/gcc/.gradle/caches/transforms-3/98682e25510c420e5c6eb6e3383c3317/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:34:13-37
-127    </application>
-128
-129</manifest>
+107        <!--
+108        Service for holding metadata. Cannot be instantiated.
+109        Metadata will be merged from other manifests.
+110        -->
+111        <service
+111-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/gcc/.gradle/caches/transforms-3/98682e25510c420e5c6eb6e3383c3317/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:31:9-35:45
+112            android:name="androidx.camera.core.impl.MetadataHolderService"
+112-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/gcc/.gradle/caches/transforms-3/98682e25510c420e5c6eb6e3383c3317/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:32:13-75
+113            android:enabled="false"
+113-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/gcc/.gradle/caches/transforms-3/98682e25510c420e5c6eb6e3383c3317/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:33:13-36
+114            android:exported="false" />
+114-->[androidx.camera:camera-core:1.1.0-alpha08] /Users/gcc/.gradle/caches/transforms-3/98682e25510c420e5c6eb6e3383c3317/transformed/jetified-camera-core-1.1.0-alpha08/AndroidManifest.xml:34:13-37
+115    </application>
+116
+117</manifest>

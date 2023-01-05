@@ -15,8 +15,6 @@ import java.util.ArrayList;
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
 // @react-native-camera-roll/camera-roll
 import com.reactnativecommunity.cameraroll.CameraRollPackage;
-// @react-native-community/cameraroll
-import com.reactnativecommunity.cameraroll.CameraRollPackage;
 // @react-native-community/clipboard
 import com.reactnativecommunity.clipboard.ClipboardPackage;
 // @react-native-community/geolocation
@@ -93,7 +91,6 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
-      new CameraRollPackage(),
       new CameraRollPackage(),
       new ClipboardPackage(),
       new GeolocationPackage(),

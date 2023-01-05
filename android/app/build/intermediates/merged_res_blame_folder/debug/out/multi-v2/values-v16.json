@@ -4,17 +4,7 @@
             "outputFile": "/Users/gcc/Desktop/115/taro/taro-react-native/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/gcc/.gradle/caches/transforms-3/8e1cfd4e749775f195798be2005dc765/transformed/core-1.7.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/gcc/.gradle/caches/transforms-3/7b27665472aa4dd969a7c3406fcc40fc/transformed/appcompat-1.4.1/res/values-v16/values-v16.xml",
+                    "source": "/Users/gcc/.gradle/caches/transforms-3/2a88e7ac654577d0bce48c95fd859c63/transformed/appcompat-1.3.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/gcc/.gradle/caches/transforms-3/5c61d7afbc1bcd99cb491da6ba2ee6c1/transformed/core-1.6.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]
